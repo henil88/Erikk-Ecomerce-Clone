@@ -196,11 +196,11 @@ main {
             }
 
             #toggle {
-                flex-direction: column;
+                flex-direction: row;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                gap: 2em;
+                // gap: 2em;
 
                 .ri-arrow-drop-down-line {
                     display: initial;
@@ -213,7 +213,7 @@ main {
                 }
 
                 button {
-                    display: none;
+                    display: initial;
                 }
 
                 i {
