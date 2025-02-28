@@ -113,7 +113,7 @@ nav {
 
 .view-1 {
     // width: 100%;
-    padding: 1rem 3.5rem;
+    padding: 1rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -183,9 +183,37 @@ nav {
     }
 }
 
+.view-2 {
+    .top {
+        width: 100%;
+        aspect-ratio: 1/1;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .bottom{
+    display: flex;
+        .verticle-txt {
+            p {
+                writing-mode: vertical-lr;
+            }
+        }
+        .other-txt{
+            p{
+                writing-mode: initial;
+            }
+        }
+
+    }
+}
+
 @media(min-width:900px) {
     nav {
         width: 100%;
+        padding: 1rem 3rem;
 
         // height: 5rem;
         // background-color: red;
@@ -246,6 +274,7 @@ nav {
 
     .top {
         width: 100%;
+        padding: 1rem 3rem;
         // aspect-ratio: 1/1;
         margin-top: 1rem;
         font-family: 'robot-mono';
@@ -273,7 +302,7 @@ nav {
 
     .view-1 {
         width: 100%;
-        padding: 1rem 3.5rem;
+        padding: 1rem 3rem;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -319,7 +348,7 @@ nav {
             .bottom-part {
                 margin-top: auto;
                 width: 100%;
-                padding-bottom: 2rem;
+                padding-bottom: 1rem;
 
                 .menu {
                     width: 100%;
